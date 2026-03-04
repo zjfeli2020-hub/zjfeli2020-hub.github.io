@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi Primera Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feli Studio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hola Feli 😈🔥</h1>
-    <p>Arrancando mi imperio digital.</p>
+
+    <header class="navbar">
+        <h2 class="logo">FELI STUDIO</h2>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Construyendo experiencias digitales</h1>
+        <p>Diseño. Código. Creatividad.</p>
+        <button id="btnPrincipal">Explorar</button>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+        <h2>Proyectos</h2>
+        <div class="cards">
+            <div class="card">Proyecto 1</div>
+            <div class="card">Proyecto 2</div>
+            <div class="card">Proyecto 3</div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <p>© 2026 Feli Studio - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
